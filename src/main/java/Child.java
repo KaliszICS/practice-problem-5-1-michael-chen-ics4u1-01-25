@@ -7,7 +7,6 @@ public class Child extends Person {
         super(name, age);
         this.parent1 = parent1;
         this.parent2 = parent2;
-        this.siblings = siblings;
     }
 
     public Parent getParent1() {
